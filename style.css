@@ -1,0 +1,87 @@
+body{
+ margin: 0px;
+ font-size: large;
+ font-family: Arial, Helvetica, sans-serif;
+}
+#tag{
+  font-size: 80px;
+}
+pre{
+  font-size: 50px;
+}
+.name{
+  color: skyblue;
+}
+.fixed{
+  width: 40%;
+  float: left;
+  margin-left: 70px;
+  padding: 2px;
+}
+.fixed img{
+  width: 100%;
+  margin-top: 20px;
+}
+.part_1{
+  background-image: url("images/top-banner.png");
+  background-repeat: no-repeat;
+}
+section{
+  height: 500px;
+}
+.button{
+  text-decoration: none;
+  background-image:linear-gradient(lightsalmon,tomato);
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: white;
+  font-weight: 700px;
+}
+.dream{
+  width:40%;
+  float: left;
+  margin-left: 70px;
+  padding: 2px;
+}
+.dream img{
+  width: 100%;
+}
+.colr{
+  color: orange;
+}
+.part2{
+  background-image: url("images/bg2.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  margin-top: 20px;
+}
+.box{
+  box-shadow: 10px 10px 40px gray;
+  height: 60%;
+  background: white;
+  margin-left: 5%;
+  padding: 15px;
+}
+.part3{
+  background-image: url("images/bg1.png");
+  background-repeat: no-repeat;
+  background-position: left;
+  
+}
+#line{
+  border-left : 7px solid;
+  border-right : 7px solid;
+  border-image: linear-gradient(180deg, lightsalmon, tomato);
+  border-image-slice: 1;
+
+}
+#line2{
+  border-left :7px solid;
+  border-right : 7px solid;
+  border-image: linear-gradient(180deg, blue, skyblue);
+  border-image-slice: 1;
+}
+footer{
+  background-color: lightslategrey;
+  text-align: center;
+}
